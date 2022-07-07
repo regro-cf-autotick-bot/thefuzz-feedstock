@@ -21,6 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - python-levenshtein >=0.12
 
 test:
   imports:
@@ -45,6 +46,7 @@ about:
 
   doc_url: https://github.com/seatgeek/thefuzz
   dev_url: https://github.com/seatgeek/thefuzz
+
 extra:
   recipe-maintainers:
     - sugatoray
