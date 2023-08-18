@@ -1,5 +1,5 @@
 {% set name = "thefuzz" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/thefuzz-{{ version }}.tar.gz
-  sha256: 6f7126db2f2c8a54212b05e3a740e45f4291c497d75d20751728f635bb74aa3d
+  sha256: a25e49786b1c4603c7fc6e2d69e6bc660982a2919698b536ff8354e0631cc40d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
